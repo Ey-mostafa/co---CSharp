@@ -1,0 +1,23 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+        Console.Write("enter an number");
+		int x=Convert.ToInt32(Console.ReadLine());
+		int s=0;
+		for(int j=1;j<=x;j++)
+		{
+	    int f=1;
+		for(int i=1;i<=j;i++)
+		{
+			f*=2;
+		}	
+	        s+=f; 
+		}	
+		
+		Console.Write("=");
+        Console.WriteLine(s);			
+		}
+}
